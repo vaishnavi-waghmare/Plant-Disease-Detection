@@ -1,0 +1,87 @@
+/* General Body */
+body {
+    background-color: #e6f2ea;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: #1b4332;
+    font-weight: bold;
+}
+
+/* Card */
+.card {
+    margin-top: 25px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+/* Card Header */
+.card-header {
+    background-color: #40916c;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3rem;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Buy Button */
+.btn-buy {
+    background-color: #52b788;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn-buy:hover {
+    background-color: #2d6a4f;
+    color: white;
+}
+
+/* Tips Sections */
+.tips-section {
+    background-color: #d8f3dc;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tips-section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.tips-section h5 {
+    font-weight: bold;
+    color: #1b4332;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Upload Button */
+.upload-btn {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Info text */
+.info-section p {
+    font-size: 0.95rem;
+}
+
+/* Images */
+img {
+    border-radius: 10px;
+    border: 2px solid #d8f3dc;
+}
+
+/* Responsive tweaks */
+@media(max-width: 768px){
+    .card-body {
+        flex-direction: column !important;
+    }
+}
